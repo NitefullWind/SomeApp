@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>images/add.png</file>
+        <file>images/del.png</file>
+        <file>images/select.png</file>
+        <file>images/yonghu.png</file>
+        <file>images/update.png</file>
+        <file>images/dataSearch.png</file>
+        <file>images/data.png</file>
+        <file>images/refresh.png</file>
+    </qresource>
+</RCC>

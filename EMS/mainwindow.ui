@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>销售管理系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="Trade">
+    <property name="geometry">
+     <rect>
+      <x>427</x>
+      <y>104</y>
+      <width>120</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="title">
+     <string>进货管理</string>
+    </property>
+    <addaction name="buyItem"/>
+   </widget>
+   <widget class="QMenu" name="sellManage">
+    <property name="geometry">
+     <rect>
+      <x>491</x>
+      <y>104</y>
+      <width>120</width>
+      <height>103</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>销售管理</string>
+    </property>
+    <addaction name="sellFirst"/>
+    <addaction name="separator"/>
+    <addaction name="sellSecond"/>
+   </widget>
+   <widget class="QMenu" name="infoManage">
+    <property name="geometry">
+     <rect>
+      <x>363</x>
+      <y>104</y>
+      <width>144</width>
+      <height>94</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>信息管理</string>
+    </property>
+    <addaction name="proInfo"/>
+    <addaction name="vipInfo"/>
+   </widget>
+   <widget class="QMenu" name="infoSelect">
+    <property name="geometry">
+     <rect>
+      <x>299</x>
+      <y>104</y>
+      <width>144</width>
+      <height>116</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>信息查询</string>
+    </property>
+    <addaction name="GoodsItem"/>
+    <addaction name="vipItem"/>
+    <addaction name="saleItem"/>
+   </widget>
+   <widget class="QMenu" name="sysPro">
+    <property name="geometry">
+     <rect>
+      <x>555</x>
+      <y>104</y>
+      <width>144</width>
+      <height>103</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>用户管理</string>
+    </property>
+    <addaction name="updatePwd"/>
+    <addaction name="separator"/>
+    <addaction name="userLimit"/>
+   </widget>
+   <widget class="QMenu" name="Help">
+    <property name="geometry">
+     <rect>
+      <x>619</x>
+      <y>104</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <addaction name="infoSelect"/>
+   <addaction name="infoManage"/>
+   <addaction name="Trade"/>
+   <addaction name="sellManage"/>
+   <addaction name="sysPro"/>
+   <addaction name="Help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="sellFirst">
+   <property name="text">
+    <string>销售清单</string>
+   </property>
+  </action>
+  <action name="sellSecond">
+   <property name="text">
+    <string>退货处理</string>
+   </property>
+  </action>
+  <action name="updatePwd">
+   <property name="text">
+    <string>修改密码</string>
+   </property>
+  </action>
+  <action name="userLimit">
+   <property name="text">
+    <string>添加及权限设置</string>
+   </property>
+  </action>
+  <action name="GoodsItem">
+   <property name="text">
+    <string>商品信息查询</string>
+   </property>
+  </action>
+  <action name="buyItem">
+   <property name="text">
+    <string>进货单</string>
+   </property>
+  </action>
+  <action name="vipItem">
+   <property name="text">
+    <string>会员卡信息查询</string>
+   </property>
+  </action>
+  <action name="saleItem">
+   <property name="text">
+    <string>销售信息查询</string>
+   </property>
+  </action>
+  <action name="proInfo">
+   <property name="text">
+    <string>商品信息管理</string>
+   </property>
+  </action>
+  <action name="vipInfo">
+   <property name="text">
+    <string>会员卡信息管理</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
